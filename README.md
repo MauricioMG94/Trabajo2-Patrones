@@ -1,2 +1,2 @@
 # Trabajo2-Patrones
-Repositorio para el trabajo 1 de Patrones y Diseño de Software
+Repositorio para el trabajo 2 de Patrones y Diseño de Software
