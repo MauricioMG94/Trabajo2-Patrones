@@ -4,9 +4,9 @@ public class Cooperativa implements ProxyCampaign{
     public String createCampaign(User user, String nameCampaign) {
         String messageResult = "";
         if(user.getRolUser().equals("admin")){
-            messageResult= "El usuario: "+user.getName()+" es autorizado con rol: "+user.getRolUser()+" para crear campaña";
+            messageResult= "El usuario: "+user.getName()+" es autorizado con rol: "+user.getRolUser()+" para crear campaña: "+nameCampaign;
         }else{
-            messageResult = "El usuario: "+user.getName()+" no es autorizado con rol: "+user.getRolUser()+" para crear campaña";
+            messageResult = "El usuario: "+user.getName()+" no es autorizado con rol: "+user.getRolUser()+" para crear campaña: "+nameCampaign;
         }
         return messageResult;
     }
